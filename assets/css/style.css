@@ -44,12 +44,20 @@ main {
     font-family: "Roboto", sans-serif;
 }
 
-#principale {
+#principal, #propos {
+    display: inline-block;
+    vertical-align: auto;
+}
+
+
+#principal {
     text-align: justify;
-    padding: 50px;
+    width: 60%;
 }
 
 #propos {
+    float: left;
+    width: 200px;
     background-color: #782221;
     color: white;
     text-align: left;
@@ -65,4 +73,8 @@ main {
 .competence {
     background-color: beige;
     color: black;
+}
+
+footer {
+    background-color: #782221;
 }
