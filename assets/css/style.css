@@ -1,0 +1,12 @@
+#header{
+    background-color: #782221;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icone {
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+}
