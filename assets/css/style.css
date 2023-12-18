@@ -46,6 +46,7 @@ main {
     text-align: justify;
     width: 60%;
     padding: 5px;
+    padding-right: 5%;
 }
 
 #propos {
@@ -58,18 +59,14 @@ main {
 }
 
 .titre {
-    background-color: rgba(230, 183, 164, 0.804);
+    background-color: rgba(212, 129, 129, 0.453);
     color: black;
     padding: 5px;
-    border-right-width: 3px solid #782221;
-}
-
-article a:hover {
-    border-right: #782221;
+    border: 0 0 10px solid #782221;
 }
 
 .competence {
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.879);
     color: black;
     padding: .5em;
 }
@@ -77,6 +74,7 @@ article a:hover {
 #vie {
     display: flex;
     text-align: justify;
+    padding: 10px;
 }
 
 footer {
@@ -84,7 +82,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: center;
-    align-items: center;
+    justify-content: space-around;
     background-color: #782221;
 }
 
@@ -107,6 +105,10 @@ footer {
     justify-content: center;
     align-items: space-around;
     background-color: #782221;
+}
+
+#reseaux:hover {
+    cursor: pointer;
 }
 
 #copyright {
