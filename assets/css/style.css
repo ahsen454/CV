@@ -37,44 +37,81 @@
 
 main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    text-align: justify;
     font-family: "Roboto", sans-serif;
 }
-
-#principal, #propos {
-    display: inline-block;
-    vertical-align: auto;
-}
-
 
 #principal {
     text-align: justify;
     width: 60%;
+    padding: 5px;
 }
 
 #propos {
-    float: left;
-    width: 200px;
+    width: 400px;
     background-color: #782221;
     color: white;
-    text-align: left;
-    padding: 1em;
+    text-align: justify;
+    padding-left: 0%;
+    padding-right: 5%;
 }
 
 .titre {
     background-color: rgba(230, 183, 164, 0.804);
     color: black;
     padding: 5px;
+    border-right-width: 3px solid #782221;
+}
+
+article a:hover {
+    border-right: #782221;
 }
 
 .competence {
     background-color: beige;
     color: black;
+    padding: .5em;
+}
+
+#vie {
+    display: flex;
+    text-align: justify;
 }
 
 footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     background-color: #782221;
+}
+
+#github {
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    background-color: #782221;
+}
+
+#insta {
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    background-color: #782221;
+}
+
+#reseaux {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    background-color: #782221;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
