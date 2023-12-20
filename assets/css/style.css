@@ -46,8 +46,9 @@ main {
     font-family: "Roboto", sans-serif;
 }
 
-.section:hover {
-    border-right: 0 0 5px solid #782221;
+.trait:hover {
+    cursor: default;
+    border-right: solid #782221;
 }
 
 #principal {
@@ -70,7 +71,7 @@ main {
     background-color: rgba(212, 129, 129, 0.453);
     color: black;
     padding: 5px;
-    border: 0 0 10px solid #782221;
+    border-left: solid #782221;
 }
 
 .competence {
